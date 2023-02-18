@@ -19,25 +19,47 @@
                <ul class="auth-nav__contact contact">
                   <li class="contact__item">
                      <a href="tel:88121234567" class="contact__link"
-                        >8 (812) 123-45-67</a
+                        ><svg
+                           class="contact__icon-phone"
+                           width="16"
+                           height="16"
+                        >
+                           <use href="./images/svg/sprite.svg#icon-phone"></use>
+                        </svg>
+                        8 (812) 123-45-67</a
                      >
                   </li>
                   <li class="contact__item">
-                     <p>Працюємо 7 днів на тиждень</p>
+                     <p class="contact__link">Працюємо 7 днів на тиждень</p>
                   </li>
-                  <li class="contact__item"><p>9:00 — 18:00</p></li>
+                  <li class="contact__item">
+                     <p class="contact__link">9:00 — 18:00</p>
+                  </li>
                </ul>
 
                <ul class="auth-nav__authorization authorization">
                   <li class="authorization__item">
-                     <a href="" class="authorization__link">Вхід</a>
+                     <a href="" class="authorization__link"
+                        ><svg
+                           class="authorization__icon-log-in"
+                           width="14"
+                           height="14"
+                        >
+                           <use
+                              href="./images/svg/sprite.svg#icon-log-in"
+                           ></use>
+                        </svg>
+                        Вхід</a
+                     >
                   </li>
                   <li class="authorization__item">
                      <a href="" class="authorization__link">Реєстрація</a>
                   </li>
                </ul>
             </div>
-            <div>
+         </div>
+         <div class="block-navigation">
+            <div class="container navigation--container">
                <a href="" class="logo">PORTEN</a>
                <nav class="navigation">
                   <ul class="navigation__site-nav site-nav">
@@ -53,10 +75,30 @@
                   </ul>
                   <ul class="navigation__util util">
                      <li class="util__item">
-                        <button type="button">Корзина</button>
+                        <button type="button" class="util__btn">
+                           <svg
+                              class="contact__icon-phone"
+                              width="22"
+                              height="22"
+                           >
+                              <use
+                                 href="./images/svg/sprite.svg#icon-bx-cart"
+                              ></use>
+                           </svg>
+                        </button>
                      </li>
                      <li class="util__item">
-                        <button type="button">Пошук</button>
+                        <button type="button" class="util__btn">
+                           <svg
+                              class="contact__icon-phone"
+                              width="22"
+                              height="22"
+                           >
+                              <use
+                                 href="./images/svg/sprite.svg#icon-search"
+                              ></use>
+                           </svg>
+                        </button>
                      </li>
                   </ul>
                </nav>
@@ -66,11 +108,11 @@
       <main>
          <section class="hero">
             <div class="container">
-               <div>
+               <div class="block-hero__title">
                   <h1 class="hero__title">PORTEN</h1>
                   <p class="hero__location">Івано-Франківськ</p>
                </div>
-               <p class="hiro__descriotion">
+               <p class="hero__descriotion">
                   В магазинах Торговельній мережі Porten ви можете купити
                   годинник у Бахмуті, Вінниці, Дніпрі, Житомирі, Запоріжжі,
                   Івано-Франківську, Києві, Краматорську, Луцьку, Львові, Одесі,
@@ -89,27 +131,37 @@
                <h2 class="new-season__title">Сезон 2021/22</h2>
                <ul class="new-season__list">
                   <li class="new-season__item">
-                     <img
-                        src=""
-                        alt="Louis XVI ATHOS"
-                        class="new-season__image"
-                     />
-                     <h4 class="new-season__name">Louis XVI ATHOS</h4>
-                     <p class="new-season__price">13 600 грн.</p>
+                     <a href=""
+                        ><img
+                           src=""
+                           alt="Louis XVI ATHOS"
+                           class="new-season__image"
+                        />
+                        <h4 class="new-season__name">Louis XVI ATHOS</h4>
+                        <p class="new-season__price">13 600 грн.</p></a
+                     >
                   </li>
                   <li class="new-season__item">
-                     <img
-                        src=""
-                        alt="Carl von Zeyten"
-                        class="new-season__image"
-                     />
-                     <h4 class="new-season__name">Carl von Zeyten</h4>
-                     <p class="new-season__price">16 500 грн.</p>
+                     <a href=""
+                        ><img
+                           src=""
+                           alt="Carl von Zeyten"
+                           class="new-season__image"
+                        />
+                        <h4 class="new-season__name">Carl von Zeyten</h4>
+                        <p class="new-season__price">16 500 грн.</p></a
+                     >
                   </li>
                   <li class="new-season__item">
-                     <img src="" alt="JORD AR5905" class="new-season__image" />
-                     <h4 class="new-season__name">JORD AR5905</h4>
-                     <p class="new-season__price">65 000 грн.</p>
+                     <a href=""
+                        ><img
+                           src=""
+                           alt="JORD AR5905"
+                           class="new-season__image"
+                        />
+                        <h4 class="new-season__name">JORD AR5905</h4>
+                        <p class="new-season__price">65 000 грн.</p></a
+                     >
                   </li>
                </ul>
             </div>
@@ -144,39 +196,53 @@
                <h2 class="new-goods__title">Нові надходження</h2>
                <ul class="new-goods__list">
                   <li class="new-goods__item">
-                     <img src="" alt="" class="new-goods__image" />
-                     <h4 class="new-goods__name">Carl von Zeyten</h4>
-                     <p class="new-goods__price">16 500 грн.</p>
+                     <a href=""
+                        ><img src="" alt="" class="new-goods__image" />
+                        <h4 class="new-goods__name">Carl von Zeyten</h4>
+                        <p class="new-goods__price">16 500 грн.</p></a
+                     >
                   </li>
                   <li class="new-goods__item">
-                     <img src="" alt="" class="new-goods__image" />
-                     <h4 class="new-goods__name">JORD AR5905</h4>
-                     <p class="new-goods__price">65 000 грн.</p>
+                     <a href=""
+                        ><img src="" alt="" class="new-goods__image" />
+                        <h4 class="new-goods__name">JORD AR5905</h4>
+                        <p class="new-goods__price">65 000 грн.</p></a
+                     >
                   </li>
                   <li class="new-goods__item">
-                     <img src="" alt="" class="new-goods__image" />
-                     <h4 class="new-goods__name">Emporio Armani Sportivo</h4>
-                     <p class="new-goods__price">165 000 грн.</p>
+                     <a href=""
+                        ><img src="" alt="" class="new-goods__image" />
+                        <h4 class="new-goods__name">Emporio Armani Sportivo</h4>
+                        <p class="new-goods__price">165 000 грн.</p></a
+                     >
                   </li>
                   <li class="new-goods__item">
-                     <img src="" alt="" class="new-goods__image" />
-                     <h4 class="new-goods__name">Rolex Oyster Perpetual</h4>
-                     <p class="new-goods__price">280 000 грн.</p>
+                     <a href=""
+                        ><img src="" alt="" class="new-goods__image" />
+                        <h4 class="new-goods__name">Rolex Oyster Perpetual</h4>
+                        <p class="new-goods__price">280 000 грн.</p></a
+                     >
                   </li>
                   <li class="new-goods__item">
-                     <img src="" alt="" class="new-goods__image" />
-                     <h4 class="new-goods__name">Louis XVI ATHOS</h4>
-                     <p class="new-goods__price">65 000 грн.</p>
+                     <a href=""
+                        ><img src="" alt="" class="new-goods__image" />
+                        <h4 class="new-goods__name">Louis XVI ATHOS</h4>
+                        <p class="new-goods__price">65 000 грн.</p></a
+                     >
                   </li>
                   <li class="new-goods__item">
-                     <img src="" alt="" class="new-goods__image" />
-                     <h4 class="new-goods__name">U-Boat Italo Fontana</h4>
-                     <p class="new-goods__price">18 700 грн.</p>
+                     <a href=""
+                        ><img src="" alt="" class="new-goods__image" />
+                        <h4 class="new-goods__name">U-Boat Italo Fontana</h4>
+                        <p class="new-goods__price">18 700 грн.</p></a
+                     >
                   </li>
                   <li class="new-goods__item">
-                     <img src="" alt="" class="new-goods__image" />
-                     <h4 class="new-goods__name">Gucci Men's G</h4>
-                     <p class="new-goods__price">38 500 грн.</p>
+                     <a href=""
+                        ><img src="" alt="" class="new-goods__image" />
+                        <h4 class="new-goods__name">Gucci Men's G</h4>
+                        <p class="new-goods__price">38 500 грн.</p></a
+                     >
                   </li>
                   <li class="new-goods__item">
                      <img src="" alt="" class="new-goods__image" />
