@@ -63,13 +63,11 @@ p {
 	margin: 0 auto;
    padding: 0 20px;
 
-   @media screen and (max-width: 375px) {
-   	width: 100%;
-   }
-   @media screen and (min-width: 376px) and (max-width: 1149px) {
+
+   @media screen and (max-width: 1023px) {
    	width: 375px;
    }
-   @media screen and (min-width: 1150px) {
+   @media screen and (min-width: 1024px) {
    	width: 1150px;
    }
 }

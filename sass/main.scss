@@ -1,7 +1,6 @@
 // Змінні
 @import './utilities/variables';
 
-
 // Скидання стилів
 @import './basic/modern-normalize';
 @import './basic/reset';
@@ -9,6 +8,7 @@
 // Загальні стилі
 // Header
 @import './components/header';
+@import './components/mobile-menu';
 
 // Main
 @import './components/hero';
@@ -20,4 +20,5 @@
 // Footer
 @import './components/footer';
 
+// Swiper
 @import './utilities/swip';

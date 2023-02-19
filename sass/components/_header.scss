@@ -1,3 +1,14 @@
+header {
+	width: 1920px;
+	margin: 0 auto;
+}
+
+.desctop {
+	@media screen and (max-width: 1023px) {
+		display: none;
+	}
+}
+
 .auth-nav {
 	padding: 14px 0;
 	display: flex;

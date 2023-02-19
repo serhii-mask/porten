@@ -1,11 +1,11 @@
 .articles {
-	max-width: 375px;
-	width: 100%;
+	margin: 0 auto;
+	width: 375px;
 	padding-top: 20px;
 
 	background-color: var(--bg-lite-color);
 
-	@media screen and (min-width: 1150px) {
+	@media screen and (min-width: 1024px) {
 		width: 1920px;
 		padding-top: 63px;
 	}
@@ -24,19 +24,19 @@
 			height: 1px;
 			background-color: var(--text-color);
 
-			@media screen and (min-width: 1150px) {
+			@media screen and (min-width: 1024px) {
 				bottom: -40px;
 				left: 900px;
 			}
 	}
 
-	@media screen and (min-width: 1150px) {
+	@media screen and (min-width: 1024px) {
 		margin-bottom: 93px;
 	}
 }
 
 .articles__list {
-	@media screen and (min-width: 1150px) {
+	@media screen and (min-width: 1024px) {
 		display: flex;
 		flex-wrap: wrap;
 	}
@@ -50,7 +50,7 @@
 	}
 	
 
-	@media screen and (min-width: 1150px) {
+	@media screen and (min-width: 1024px) {
 		display: flex;
 
 		&:not(:last-child) {
@@ -67,10 +67,10 @@
 	margin-top: 20px;
 
 
-	@media screen and (min-width: 1150px) {
+	@media screen and (min-width: 1024px) {
 		padding: 0;
 		max-width: 670px;
-		width: 670px;
+		// width: 670px;
 		margin-top: 53px;
 		margin-left: 145px;
 	}
@@ -84,7 +84,7 @@
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 
-	@media screen and (min-width: 1150px) {
+	@media screen and (min-width: 1024px) {
 		margin-bottom: 14px;
 		font-size: 18px;
 	}
@@ -96,7 +96,7 @@
 	font-size: 12px;
 	line-height: 1.5;
 
-	@media screen and (min-width: 1150px) {
+	@media screen and (min-width: 1024px) {
 		margin-bottom: 52px;
 		font-size: 14px;
 	}
@@ -120,7 +120,7 @@
 
 	color: var(--text-color);
 
-	@media screen and (min-width: 1150px) {
+	@media screen and (min-width: 1024px) {
 		padding: 12px 28px;
 		font-size: 18px;
 	}
@@ -139,7 +139,7 @@
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 
-	@media screen and (min-width: 1150px) {
+	@media screen and (min-width: 1024px) {
 		font-size: 18px;
 	}
 }

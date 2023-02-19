@@ -1,13 +1,13 @@
 .our-brends {
-	max-width: 375px;
-	width: 100%;
+	margin: 0 auto;
+	width: 375px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 
 	background-color: var(--bg-lite-color);
 
-	@media screen and (min-width: 1150px) {
-		max-width: 1920px;
+	@media screen and (min-width: 1024px) {
+		width: 1920px;
 		padding-top: 90px;
 		padding-bottom: 105px;
 	}
@@ -27,13 +27,13 @@
 			height: 1px;
 			background-color: var(--text-color);
 
-			@media screen and (min-width: 1150px) {
+			@media screen and (min-width: 1024px) {
 				bottom: -40px;
 				left: 900px;
 			}
 	}
 
-	@media screen and (min-width: 1150px) {
+	@media screen and (min-width: 1024px) {
 		margin-bottom: 90px;
 	}
 }
@@ -45,11 +45,11 @@
 }
 
 .our-brends__item {
-	@media screen and (max-width: 1149px) {
+	@media screen and (max-width: 1023px) {
 		width: calc((100% - 20px) / 2);
 	}
 	
-	@media screen and (min-width: 1150px) {
+	@media screen and (min-width: 1024px) {
 		&:not(:last-child) {
 			margin-right: 30px;
 		}

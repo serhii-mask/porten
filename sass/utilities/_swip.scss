@@ -1,11 +1,11 @@
 .swiper {
-	@media screen and (min-width: 1150px) {
+	@media screen and (min-width: 1024px) {
 		display: none;
    }
 }
 
 .images {
-	@media screen and (max-width: 1149px) {
+	@media screen and (max-width: 1023px) {
 		display: none;
    }
 }
