@@ -406,8 +406,8 @@
          </section>
       </main>
       <footer>
-         <div class="container footer-container">
-            <div>
+         <div class="footer-container">
+            <div class="container footer__blocks">
                <div class="about-us">
                   <h3 class="about-us__title">про компанію</h3>
                   <p class="about-us__text">
@@ -425,12 +425,18 @@
                </div>
                <div class="categoriys">
                   <h3 class="categoriys__title">Категорії</h3>
-                  <button type="button">годинники</button>
-                  <button type="button">запонки</button>
-                  <button type="button">ремені</button>
-                  <button type="button">ювелірні вироби</button>
-                  <button type="button">на замовлення</button>
-                  <button type="button">браслети</button>
+                  <button type="button" class="categoriy__btn">
+                     годинники
+                  </button>
+                  <button type="button" class="categoriy__btn">запонки</button>
+                  <button type="button" class="categoriy__btn">ремені</button>
+                  <button type="button" class="categoriy__btn">
+                     ювелірні вироби
+                  </button>
+                  <button type="button" class="categoriy__btn">
+                     на замовлення
+                  </button>
+                  <button type="button" class="categoriy__btn">браслети</button>
                </div>
                <div class="footer__form-block form-block">
                   <h3 class="form-block__title">розсилка</h3>
@@ -446,22 +452,22 @@
                            class="footer-form-input"
                            type="email"
                            name="email"
-                           placeholder=" "
+                           placeholder="Ваша пошта"
                         />
-                        <span class="footer-form-text">Ваша пошта</span>
-                     </label>
-                     <label class="footer-btn-form">
-                        <button type="submit">ПІДПИСАТИСЯ</button>
+                        <button type="submit" class="form-btn">
+                           ПІДПИСАТИСЯ
+                        </button>
                      </label>
                   </form>
                </div>
             </div>
-            <div class="last-line">
-               <p class="last-line__text">
-                  © 2022 PORTEN, Інтернет-магазин годинників
-               </p>
-               <a href="" class="last-line__link">Угода користувача</a>
-            </div>
+         </div>
+
+         <div class="container last-line">
+            <p class="last-line__text">
+               © 2022 PORTEN, Інтернет-магазин годинників
+            </p>
+            <a href="" class="last-line__link">Угода користувача</a>
          </div>
       </footer>
    </body>
