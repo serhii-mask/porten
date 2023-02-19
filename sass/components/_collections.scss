@@ -1,0 +1,154 @@
+.collections {
+	width: 1920px;
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+}
+
+.new-collection {
+	text-align: center;
+	display: inline-block;
+	width: 880px;
+	height: 730px;
+	padding-bottom: 100px;
+	padding-top: 480px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url(../../images/new-collection-bg.jpg);
+}
+
+.new-collection__title {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 72px;
+
+	&::after {
+		position: absolute;
+		bottom: -25px;
+		left: 380px;
+		content: "";
+		display: block;
+		width: 120px;
+		height: 1px;
+		background-color: var(--text-color);
+	}
+}
+
+.new-collection__link {
+	align-items: center;
+	padding: 12px 28px;
+	font-size: 18px;
+	line-height: 1.3;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	border: 1px solid #ffffff;
+
+	color: var(--text-color);
+}
+
+// -------------------
+.new-season {
+	padding: 93px 80px;
+	width: 1040px;
+}
+
+.new-season__title {
+	margin-bottom: 100px;
+
+	&::after {
+		position: absolute;
+			bottom: -45px;
+			left: 380px;
+			content: "";
+			display: block;
+			width: 120px;
+			height: 1px;
+			background-color: var(--text-color);
+	}
+}
+
+.new-season__list {
+	display: flex;
+}
+
+.new-season__item {
+	&:not(:last-child) {
+		margin-right: 50px;
+	}
+}
+
+.new-season__image {
+	padding: 27px 22px 34px 23px;
+	background-color: var(--hover-link-bg-color);
+}
+
+.new-season__name {
+	margin-top: 25px;
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 100;
+	font-size: 18px;
+	line-height: 1.3;
+}
+
+.new-season__price {
+	margin-top: 10px;
+	font-family: 'Playfair Display';
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.3;
+
+	color: #D0D0D0;
+}
+
+
+// --------------------------
+.collection-2018 {
+	width: 100%;
+	display: flex;
+}
+
+.collection-2018__block {
+	text-align: center;
+}
+
+.collection-2018__title {
+	margin-top: 100px;
+	margin-bottom: 80px;
+	font-weight: 400;
+
+	&::after {
+		position: absolute;
+			bottom: -40px;
+			left: 435px;
+			content: "";
+			display: block;
+			width: 120px;
+			height: 1px;
+			background-color: var(--text-color);
+	}
+}
+
+.collection-2018__text {
+	margin-left: 140px;
+	margin-right: 170px;
+	margin-bottom: 76px;
+	font-weight: 100;
+	font-size: 14px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.collection-2018__link {
+	align-items: center;
+	padding: 12px 28px;
+	font-size: 18px;
+	line-height: 1.3;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	border: 1px solid #ffffff;
+
+	color: var(--text-color);
+}
