@@ -1,6 +1,7 @@
 // Змінні
 @import './utilities/variables';
 
+
 // Скидання стилів
 @import './basic/modern-normalize';
 @import './basic/reset';
@@ -18,3 +19,5 @@
 
 // Footer
 @import './components/footer';
+
+@import './utilities/swip';

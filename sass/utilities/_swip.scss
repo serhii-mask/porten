@@ -1,0 +1,30 @@
+.swiper {
+	@media screen and (min-width: 1150px) {
+		display: none;
+   }
+}
+
+.images {
+	@media screen and (max-width: 1149px) {
+		display: none;
+   }
+}
+
+.swiper .swiper-button-prev::after,
+.swiper .swiper-button-next::after {
+	color: var(--text-color);
+	font-size: 30px;
+	transform: translateY(-40px);
+}
+
+.swiper .swiper-pagination {
+	bottom: 0;
+}
+
+.swiper .swiper-pagination-bullet {
+	width: 10px;
+	height: 10px;
+	line-height: 10px;
+	font-size: 10px;
+	background-color: #fff;
+}

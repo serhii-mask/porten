@@ -1,34 +1,57 @@
 .our-brends {
-	width: 1920px;
-	padding-top: 90px;
-	padding-bottom: 105px;
+	max-width: 375px;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
 
 	background-color: var(--bg-lite-color);
+
+	@media screen and (min-width: 1150px) {
+		max-width: 1920px;
+		padding-top: 90px;
+		padding-bottom: 105px;
+	}
 }
 
 .our-brends__title {
 	margin: 0 auto;
-	margin-bottom: 90px;
+	margin-bottom: 20px;
 
 	&::after {
 		position: absolute;
-			bottom: -40px;
-			left: 900px;
+			bottom: -10px;
+			left: 125px;
 			content: "";
 			display: block;
 			width: 120px;
 			height: 1px;
 			background-color: var(--text-color);
+
+			@media screen and (min-width: 1150px) {
+				bottom: -40px;
+				left: 900px;
+			}
+	}
+
+	@media screen and (min-width: 1150px) {
+		margin-bottom: 90px;
 	}
 }
 .our-brends__list {
 	display: flex;
 	align-items: baseline;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .our-brends__item {
-	&:not(:last-child) {
-		margin-right: 30px;
+	@media screen and (max-width: 1149px) {
+		width: calc((100% - 20px) / 2);
+	}
+	
+	@media screen and (min-width: 1150px) {
+		&:not(:last-child) {
+			margin-right: 30px;
+		}
 	}
 }
