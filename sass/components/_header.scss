@@ -1,12 +1,10 @@
 header {
-	width: 1920px;
+	width: 375px;
 	margin: 0 auto;
-}
 
-.desctop {
-	@media screen and (max-width: 1023px) {
-		display: none;
-	}
+	@media screen and (min-width: 1024px) {
+		width: 1920px;
+   }
 }
 
 .auth-nav {
@@ -85,7 +83,11 @@ header {
 
 .block-navigation {
 	background-color: var(--bg-lite-color);
-	min-height: 80px;
+	
+
+	@media screen and (min-width: 1024px) {
+		min-height: 80px;
+   }
 }
 
 .navigation--container {
@@ -134,7 +136,11 @@ header {
 
 .util__item {
 	&:not(:last-child) {
-		margin-right: 40px;
+		margin-right: 20px;
+
+		@media screen and (min-width: 1024px) {
+			margin-right: 40px;
+		}
 	}
 }
 
@@ -142,4 +148,8 @@ header {
 	padding: 0;
 	background-color: transparent;
 	border: none;
+}
+
+.menu-toggle {
+	margin-left: 200px;
 }
