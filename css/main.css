@@ -685,16 +685,18 @@ header {
 .hero__title::after {
   position: absolute;
   bottom: 10px;
-  left: 4px;
+  left: 22px;
   content: "";
   display: block;
-  width: 100%;
+  width: 140px;
   height: 2px;
   background-color: var(--text-color);
 }
 @media screen and (min-width: 1024px) {
   .hero__title::after {
     width: 100%;
+    bottom: 10px;
+    left: 4px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -768,6 +770,7 @@ header {
     background-position: center;
     max-width: 880px;
     height: 730px;
+    padding: 0;
     padding-bottom: 100px;
     padding-top: 480px;
   }
