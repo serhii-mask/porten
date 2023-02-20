@@ -33,6 +33,12 @@
 	position: relative;
 	display: flex;
 }
+
+.menu-toggle--open {
+	@media screen and (min-width: 1024px) {
+		display: none;
+	}
+}
  
 .menu-toggle {
 	padding: 5px;

@@ -498,11 +498,14 @@ header {
           align-items: center;
 }
 
-.util__item:not(:last-child) {
+.util__item {
+  text-align: right;
+}
+.util__item:first-child {
   margin-right: 20px;
 }
 @media screen and (min-width: 1024px) {
-  .util__item:not(:last-child) {
+  .util__item:first-child {
     margin-right: 40px;
   }
 }
@@ -514,7 +517,7 @@ header {
 }
 
 .menu-toggle {
-  margin-left: 200px;
+  margin-left: 240px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -563,6 +566,12 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media screen and (min-width: 1024px) {
+  .menu-toggle--open {
+    display: none;
+  }
 }
 
 .menu-toggle {

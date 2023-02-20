@@ -135,10 +135,13 @@ header {
 }
 
 .util__item {
-	&:not(:last-child) {
+	text-align: right;
+	&:first-child {
 		margin-right: 20px;
+	}
 
-		@media screen and (min-width: 1024px) {
+	@media screen and (min-width: 1024px) {
+		&:first-child {
 			margin-right: 40px;
 		}
 	}
@@ -151,5 +154,5 @@ header {
 }
 
 .menu-toggle {
-	margin-left: 200px;
+	margin-left: 240px;
 }
