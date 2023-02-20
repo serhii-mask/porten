@@ -629,7 +629,7 @@ header {
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
-  background-image: url(../../images/new-collection-bg.jpg);
+  background-image: url(../images/new-collection-bg.jpg);
 }
 @media screen and (min-width: 1024px) {
   .new-collection {
