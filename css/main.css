@@ -923,11 +923,6 @@ header {
   }
 }
 
-.collection-2018__image {
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
-}
 @media screen and (max-width: 1023px) {
   .collection-2018__image {
     margin-top: 70px;
